@@ -7,7 +7,7 @@
       class="bg-gray-900 border-2 border-gr border-gr-primary"
     >
       <h2 class="section-title text-center mb-4 uppercase">Navegacion</h2>
-
+<center> IMPORTANTE: Las clases Trabajador y Pirata navegan en LVL 23 con 35 skills, las demás navegan en LVL 25 con 70 skills en Navegación </center>
       <div class="xl:col-span-10 text-xs overflow-x-auto">
         <table class="text-gray-400">
           <thead>
