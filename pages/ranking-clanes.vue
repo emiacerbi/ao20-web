@@ -24,25 +24,23 @@
               <th class="w-1/12">Miembros</th>
               <th class="w-1/12">Cantidad Miembros</th>
               <th class="w-1/12">Cantidad Solicitudes para Ingreso</th>
-              <!-- <th class="w-1/12">Oro total de todos los miembros</th> -->
             </tr>
           </thead>
 
           <tbody>
             <tr v-for="guild in rankingGuilds" :key="guild.item_id">
-              <td class="w-1/12">{{ guild.GuildName }}</td>
-              <td class="w-1/12">{{ guild.Founder }}</td>
-              <td class="w-1/12">{{ guild.Date }}</td>
-              <td class="w-1/12">{{ guild.Alineacion }}</td>
-              <td class="w-1/12">{{ guild.UltimasElecciones }}</td>
-              <td class="w-2/12">{{ guild.Desc }}</td>
-              <td class="w-2/12">{{ guild.GuildNews }}</td>
-              <td class="w-1/12">{{ guild.Leader }}</td>
-              <td class="w-1/12">{{ guild.NivelDeClan }}</td>
-              <td class="w-1/12">{{ guild.MEMBERS }}</td>
+              <td class="w-1/12">{{ guild.guild_name }}</td>
+              <td class="w-1/12">{{ guild.founder_name }}</td>
+              <td class="w-2/12">{{ $dayjs(guild.creation_date).format('DD [de] MMMM [de] YYYY [a las] HH:mm') }}</td>
+              <td class="w-1/12">{{ guild.alignment }}</td>
+              <td class="w-2/12">{{ $dayjs(guild.last_elections).format('DD [de] MMMM [de] YYYY [a las] HH:mm') }}</td>
+              <td class="w-2/12">{{ guild.description }}</td>
+              <td class="w-2/12">{{ guild.news }}</td>
+              <td class="w-1/12">{{ guild.leader_name }}</td>
+              <td class="w-1/12">{{ guild.level }}</td>
+              <td class="w-1/12">{{ guild.MEMBERS }}</td> <!-- This property doesn't exist in your data structure; do you need it? -->
               <td class="w-1/12">{{ guild.QTY_MEMBERS }}</td>
               <td class="w-1/12">{{ guild.QTY_SOLICITUDES_INGRESO }}</td>
-              <!-- <td class="w-1/12">{{ guild.TOTAL_GOLD_FROM_MEMBERS }}</td> -->
             </tr>
           </tbody>
         </table>
