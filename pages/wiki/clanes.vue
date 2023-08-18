@@ -40,7 +40,7 @@
     <p>Para poder subir de nivel nuestro clan, vamos a tener que matar algunas criaturas que aparte de dar experiencia común dan experiencia de Clan. Muchas de ellas son criaturas que estan continuamente apareciendo en el mundo otras son bosses que aparecen cada cierta cantidad de tiempo. Presiona en el boton Experiencia de clan para ver el tipo de criaturas y la exp que da cada una</p>
 
 
-    <h2>Recompenzas Niveles Clan</h2>
+    <h2>Recompensas Niveles Clan</h2>
     <ul>
       <li>Nivel 1: Cupo para 5 usuarios en el clan</li>
       <li>Nivel 2: Cupo para 7 Usuarios en el clan, Pedir ayuda al clan con tecla "G"</li>
